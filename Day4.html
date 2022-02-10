@@ -1,0 +1,62 @@
+<!-- Assignment Day 4
+
+1. create an  array of 5 objects & all the objects should have 4 properties
+[it's up to you what data you wanna take(students, avengers,user)]
+
+2. Print two properties from that object using: 
+ for loop and
+ also by using forEach loop -->
+
+<script>
+    var array=[
+ {
+     name:"Rimjhim",
+     roll:09,
+     age:20,
+     city:"Mumbai"
+     
+ },
+ {
+    name:"Rimmy",
+    city:"Delhi",
+    age:25,
+    Roll: 09
+},
+{
+    name:"Rimjhim",
+    ID:"rim@gmail.com",
+    city:"Mumbai",
+    enrollment:45636,
+},
+{
+    name:"Nupur",
+    age:22,
+    roll:21,
+    city:"Pune"
+},
+{
+    name:"Thor",
+    age:2100,
+    weapon:"Hathodaa",
+    theme:"Avengers"
+},
+
+]
+
+
+array.forEach (
+    function(array , index)
+    {
+   console.log(array,index);
+    }
+  )
+
+     for(var i=0;i<array.length;i++)
+{
+    console.log(array[i].name);
+    console.log(array[i].age);
+} 
+
+</script>
+
+
